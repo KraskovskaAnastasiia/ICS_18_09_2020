@@ -30,7 +30,7 @@ def total_amout_of_words_in_file():
             num_keywords.add(words_array[i])
 
     print(f'Количество слов {len(words_set)}')
-    print(f'Количество слов, которые в первый раз встретились {len(num_keywords)}')
+    print(f'Количество слов, которые включают корни слов  {len(num_keywords)}')
 
     return num_words
 
